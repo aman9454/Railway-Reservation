@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    flex-flow: row;
+    margin: 0;
+    font-family: "Lato", "Arial", sans-serif;
+    background : url(thumb.jpg);
+    background-size: 100%;
+    
+}
+
+
+.container {
+    display: grid;
+    grid-gap: 20px;
+}
+
+.navbar {
+    font-family: "Lato", "Arial", sans-serif;
+    display: grid;
+    grid-column: 1/-1;
+    padding: 1em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* background-color: rgba(203, 203, 201, 0.4); */
+}
+
+.nav_list {
+    display: flex;
+    list-style: none;
+    font-size: 1.6em;
+    border-radius: 4px;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    padding: 0.2em 1.4em 0.2em 1.4em;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.1s linear;
+}
+
+a:hover {
+    -webkit-box-shadow: rgba(0, 0, 0, 0.20) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px 0px 2px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.20) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px 0px 2px;
+    -o-box-shadow: rgba(0, 0, 0, 0.20) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px 0px 2px;
+    box-shadow: rgba(0, 0, 0, 0.20) 0px 5px 15px, inset rgba(0, 0, 0, 0.15) 0px 0px 2px;
+    border-radius: 1px;
+}
+
+.right {
+    font-family: 'Open Sans', sans-serif; 
+    position: absolute;
+    bottom: 1em;
+    right: 0;
+    display: flex;
+    color: wheat;
+    font-size: 40   ;
+    text-align: right;
+    padding: 0em 1em;
+    
+}
+.left {
+    font-family: 'Open Sans', sans-serif; 
+    position: absolute;
+    bottom: 1em;
+    left: 0;
+    display: flex;
+    font-size: 40   ;
+    text-align: left;
+    padding: 0em 1em;
+    
+}
+.menu{
+    
+    cursor: pointer;
+    color: wheat;
+}
